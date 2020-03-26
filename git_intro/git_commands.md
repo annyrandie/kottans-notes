@@ -1,5 +1,14 @@
 # Git commands
 
+_*Config git*_
+
+    $ git cofig --list (all list of configuration)
+    $ git config --global user.name "Hanna Pereverzieva"
+    $ git config --global user.email myemail@example.com
+    $ git config --global core.editor <your-editor's-config-went-here>
+    $ git config --global core.editor "code --wait"
+
+
 _*Init git repo*_
 
     $ git init
