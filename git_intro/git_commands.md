@@ -17,6 +17,7 @@ _*Init git repo*_
         mkdir - used to create a new directory
         cd - used to change directories
         rm - used to remove files and directories
+        touch <file> - add file to project folder
     
     
 _*Clone repo*_
@@ -31,6 +32,8 @@ _*git status*_
     
     $ git log
     
+    $ git diff (to see changes that have been made but have not been committed)
+    
 _*add to staging index*_
 
     $ git add <file1> <file2> … <fileN> (specific file)
@@ -38,6 +41,25 @@ _*add to staging index*_
     
     $ git rm --cached <file>..." (to unstage file)
 
+_*git commit*_
+
+    $ git commit
+    $ git commit -m "message"
+    
+_*git log*_
+
+    $ git log
+    $ git log --oneline (SHA and message)
+    $ git log -p
+    $ git log --decorate (shows description of commits)
+    
+_*git tag*_
+
+    $ git tag -a v1.0
+    $ git tag
+    $ git tag -d v1.0  (delete tag)
+    $ git tag -a v1.0 <SHA> (to tag a commit that occurred farther back in the repo's history)
+    
 
 
 
