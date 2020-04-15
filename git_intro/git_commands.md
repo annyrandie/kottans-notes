@@ -94,7 +94,7 @@ _*git merge*_
     $ git reset --hard HEAD^ (undo the merge)
     
       
-    
+  ## Work with remote repozitories on github  
     
     
     
