@@ -96,6 +96,18 @@ _*git merge*_
       
   ## Work with remote repozitories on github  
     
+_*git remote *_
+
+    $ git remote add origin <URL> (is used to add a connection to a new remote repository)
+    $ git remote -v (is used to see the details about a connection to a remote)
+    
+_*push to remote*_
+
+    $ git push origin master ($ git push <remote-shortname> <branch>) (to send commits from a local repository to a remote repository)
+    
+    to avoid SSL: GIT_SSL_NO_VERIFY=true git push origin master
+    
+
     
     
     
