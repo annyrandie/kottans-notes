@@ -107,6 +107,15 @@ _*push to remote*_
     
     to avoid SSL: GIT_SSL_NO_VERIFY=true git push origin master
     
+_*git pull*_
+
+    $ git pull origin master
+    
+    to avoid SSl: GIT_SSL_NO_VERIFY=true git pull origin master
+    
+_*git log*_
+
+    $ git log --stat (to show information about changes)
 
     
     
