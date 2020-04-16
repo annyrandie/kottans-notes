@@ -100,6 +100,7 @@ _*git remote *_
 
     $ git remote add origin <URL> (is used to add a connection to a new remote repository)
     $ git remote -v (is used to see the details about a connection to a remote)
+    $ git remote rename <current name> <new name> (rename remoute repository)
     
 _*push to remote*_
 
@@ -116,8 +117,31 @@ _*git pull*_
 _*git log*_
 
     $ git log --stat (to show information about changes)
-
     
+_*git fetch*_
+
+    $ git fetch upstream master (to get the changes from upstream remote repository)
+    
+_*git rebase*_
+
+    $ git rebase -i HEAD~3 (squash 3 commits)
+
+### Rebase Commands
+
+    Let's take another look at the different commands that you can do with git rebase:
+
+    - use p or pick – to keep the commit as is
+    - use r or reword – to keep the commit's content but alter the commit message
+    - use e or edit – to keep the commit's content but stop before committing so that you can:
+        - add new content or files
+        - remove content or files
+        - alter the content that was going to be committed
+    - use s or squash – to combine this commit's changes into the previous commit (the commit above it in the list)
+    - use f or fixup – to combine this commit's change into the previous one but drop the commit message
+    - use x or exec – to run a shell command
+    - use d or drop – to delete the commit
+
+
     
     
     
